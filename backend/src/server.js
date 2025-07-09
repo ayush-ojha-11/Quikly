@@ -30,7 +30,7 @@ mongoose
   .then(() => console.log("Connected to database"))
   .catch((err) => console.log(err.message));
 
-app.get("/", (req, res) => res.send("API running"));
+app.get("/ping", (req, res) => res.send("OK"));
 
 //Routes
 app.use("/api/auth", authRoutes);
