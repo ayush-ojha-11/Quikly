@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "https://quikly-phi.vercel.app/",
+    origin: "https://quikly-phi.vercel.app",
     credentials: true,
   })
 );
